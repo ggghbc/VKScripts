@@ -7,12 +7,11 @@ A script for automatically transferring community subscriptions from one VK acco
 
 ### 📌 Features
 
-- Collecting a list of open communities from the specified page  
+- Collecting a list of open and closed communities from the specified page  
 - Subscribing to communities  
 - Captcha handling  
 - Subscription caching (faster re-runs)  
 - Logging to file  
-- Retrieving a list of closed communities
 
 ### 🛠️ Installation
 
@@ -56,7 +55,7 @@ python vk_group_transfer.py
 - Logs are saved to `vk_group_transfer.log`  
 - Subscription cache is saved in `subs_cache.json`  
 - Subscription errors are saved to `failed_groups.txt`  
-- Closed/deleted/blocked communities are saved to `blocked_or_closed_groups.txt`
+- Closed/blocked communities are saved to `blocked_or_closed_groups.txt`
 
 ## License
 
